@@ -20,3 +20,13 @@ body {
 .navbar-brand {
     height: 50px;
 }
+
+.carousel-caption{
+    text-align: left;
+}
+
+.title-banner{
+    /* color: var(--red); */
+    font-weight: 600;
+    text-shadow: 2px 2px 3px var(--black) ;
+}

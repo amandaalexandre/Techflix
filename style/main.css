@@ -1,0 +1,22 @@
+:root {
+    --red: #E50914;
+    --black: #131313;
+}
+
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--black);
+}
+
+/* working class */
+.bege {
+    background-color: blanchedalmond;
+}
+
+.navbar-brand {
+    height: 50px;
+}

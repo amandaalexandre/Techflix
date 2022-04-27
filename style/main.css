@@ -30,3 +30,55 @@ body {
     font-weight: 600;
     text-shadow: 2px 2px 3px var(--black) ;
 }
+
+/* "My list" carousel */
+.my-list .slide {
+    height: 300px;
+  }
+
+.slide {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+  }
+
+h3 {
+    color: whitesmoke;
+}
+
+.s01 {
+    background-color: #ff8a80;
+}
+
+.s02 {
+    background-color: #ea80fc;
+}
+
+.s03 {
+    background-color: #8c9eff;
+}
+
+.s04 {
+    background-color: #80d8ff;
+}
+
+.s05 {
+    background-color: #b9f6ca;
+}
+
+.s06 {
+    background-color: #ffd180;
+}
+
+.s07 {
+    background-color: #408544;
+}
+
+.control {
+    background-color: grey;
+    height: 300px;
+    width: 3rem;
+}

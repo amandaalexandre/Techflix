@@ -12,7 +12,7 @@ let slider = tns({
           items: 3
         },
         1000: {
-          items: 6
+          items: 3
         }
       }
   });
@@ -32,10 +32,10 @@ let slider = tns({
     nextButton: '#next-top-10',
     responsive: {
         800: {
-          items: 3
+          items: 2
         },
         1000: {
-          items: 6
+          items: 2
         }
       }
   });
@@ -54,7 +54,7 @@ let movies = tns({
           items: 3
         },
         1000: {
-          items: 6
+          items: 3
         }
       }
   });
@@ -73,7 +73,7 @@ let movies = tns({
           items: 3
         },
         1000: {
-          items: 6
+          items: 3
         }
       }
   });

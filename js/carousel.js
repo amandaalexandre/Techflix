@@ -1,6 +1,6 @@
 let slider = tns({
     container: '.my-list',
-    items: 1,
+    items: 4,
     slideBy: 'page',
     mouseDrag: 'mouseDrag',
     autoplay: false,

@@ -10,6 +10,7 @@
 }
 body {
     background-color: var(--black);
+    overflow-x: hidden;
 }
 
 /* working class */
@@ -32,53 +33,71 @@ body {
 }
 
 /* "My list" carousel */
+.my-list-carousel {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
 .my-list .slide {
     height: 300px;
+    z-index: 0;
   }
 
+.my-list {
+    position: absolute;
+    top: 0px;
+}
+
 .slide {
-    font-family: 'Roboto', sans-serif;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 100px;
   }
 
 h3 {
     color: whitesmoke;
 }
 
-.s01 {
-    background-color: #ff8a80;
-}
-
-.s02 {
-    background-color: #ea80fc;
-}
-
-.s03 {
-    background-color: #8c9eff;
-}
-
-.s04 {
-    background-color: #80d8ff;
-}
-
-.s05 {
-    background-color: #b9f6ca;
-}
-
-.s06 {
-    background-color: #ffd180;
-}
-
-.s07 {
-    background-color: #408544;
-}
-
 .control {
-    background-color: grey;
+    background: transparent;
     height: 300px;
     width: 3rem;
+    font-size:5rem;
+    color: white;
+    /* padding: 1rem; */
+}
+
+.control:hover {
+    background-color: rgb(13,13,13,0.4);
+}
+
+.previous {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.previous:hover {
+    box-shadow: 10px 0 10px rgb(13,13,13,0.4);
+}
+
+.next {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.next:hover {
+    box-shadow: -10px 0 10px rgb(13,13,13,0.4);
+}
+
+/* Top 10 carousel */
+.top-10-carousel {
+    position: relative;
+    padding: 0;
+    margin: 0;
 }

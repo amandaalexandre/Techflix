@@ -99,3 +99,13 @@ h3 {
 .top-10-carousel {
 position: relative;
 }
+
+.top10 {
+    font-size: 200px;
+
+}
+
+.tns-nav{
+    visibility: none;
+    height: 0;
+}

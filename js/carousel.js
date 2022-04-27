@@ -26,6 +26,7 @@ let slider = tns({
     autoWidth: true,
     loop: false,
     rewind: true,
+    gutter: 10,
     controlsContainer: '#controls-top-10',
     prevButton: '#previous-top-10',
     nextButton: '#next-top-10',
@@ -45,7 +46,7 @@ let movies = tns({
     slideBy: 'page',
     mouseDrag: 'mouseDrag',
     autoplay: false,
-    controlsContainer: '#movies-top-10',
+    controlsContainer: '#controls-movies',
     prevButton: '#previous-movies',
     nextButton: '#next-movies',
     responsive: {
@@ -64,7 +65,7 @@ let movies = tns({
     slideBy: 'page',
     mouseDrag: 'mouseDrag',
     autoplay: false,
-    controlsContainer: '#series-top-10',
+    controlsContainer: '#controls-series',
     prevButton: '#previous-series',
     nextButton: '#next-series',
     responsive: {

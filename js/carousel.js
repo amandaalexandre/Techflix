@@ -4,14 +4,15 @@ let slider = tns({
     slideBy: 'page',
     mouseDrag: 'mouseDrag',
     autoplay: false,
+    gutter: 10,
     controlsContainer: '#controls-my-list',
     prevButton: '.previous',
     nextButton: '.next',
     responsive: {
-        800: {
+        400: {
           items: 3
         },
-        1000: {
+        800: {
           items: 6
         }
       }
@@ -46,14 +47,15 @@ let movies = tns({
     slideBy: 'page',
     mouseDrag: 'mouseDrag',
     autoplay: false,
+    gutter: 10,
     controlsContainer: '#controls-movies',
     prevButton: '#previous-movies',
     nextButton: '#next-movies',
     responsive: {
-        800: {
+        400: {
           items: 3
         },
-        1000: {
+        800: {
           items: 6
         }
       }
@@ -65,14 +67,15 @@ let movies = tns({
     slideBy: 'page',
     mouseDrag: 'mouseDrag',
     autoplay: false,
+    gutter: 10,
     controlsContainer: '#controls-series',
     prevButton: '#previous-series',
     nextButton: '#next-series',
     responsive: {
-        800: {
+        400: {
           items: 3
         },
-        1000: {
+        800: {
           items: 6
         }
       }

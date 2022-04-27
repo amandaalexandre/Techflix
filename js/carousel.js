@@ -1,6 +1,6 @@
 let slider = tns({
     container: '.my-list',
-    items: 4,
+    items: 6,
     slideBy: 'page',
     mouseDrag: 'mouseDrag',
     autoplay: false,
@@ -12,7 +12,7 @@ let slider = tns({
           items: 3
         },
         1000: {
-          items: 3
+          items: 6
         }
       }
   });
@@ -35,14 +35,14 @@ let slider = tns({
           items: 2
         },
         1000: {
-          items: 2
+          items: 3
         }
       }
   });
 
 let movies = tns({
     container: '.movies',
-    items: 4,
+    items: 6,
     slideBy: 'page',
     mouseDrag: 'mouseDrag',
     autoplay: false,
@@ -54,14 +54,14 @@ let movies = tns({
           items: 3
         },
         1000: {
-          items: 3
+          items: 6
         }
       }
   });
 
   let series = tns({
     container: '.series',
-    items: 4,
+    items: 6,
     slideBy: 'page',
     mouseDrag: 'mouseDrag',
     autoplay: false,
@@ -73,7 +73,7 @@ let movies = tns({
           items: 3
         },
         1000: {
-          items: 3
+          items: 6
         }
       }
   });
